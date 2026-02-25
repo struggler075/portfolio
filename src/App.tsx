@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { ProjectDetails } from './pages/ProjectDetails';
 
@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter basename="/portfolio">
+    <HashRouter>
       <AnimatePresence mode="wait">
         {isLoading ? (
           <motion.div
@@ -66,7 +66,7 @@ function App() {
           </motion.main>
         )}
       </AnimatePresence>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
