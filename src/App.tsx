@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <AnimatePresence mode="wait">
         {isLoading ? (
           <motion.div
