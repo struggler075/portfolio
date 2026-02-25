@@ -14,10 +14,10 @@ export const projects: Project[] = [
     category: 'Full Stack Разработка',
     description: 'Полноценная e-commerce платформа для продажи фирменной одежды. Бэкенд полностью реализован на Spring Framework, обеспечивая высокую производительность и безопасность. Фронтенд включает в себя продвинутую систему метрик, кастомный аналитический дашборд и мощную административную панель. Реализована микросервисная архитектура с использованием Docker и Kubernetes для масштабируемости.',
     images: [
-      '/projects/ecommerce-1.jpg',
-      '/projects/ecommerce-2.jpg',
-      '/projects/ecommerce-3.jpg',
-      '/projects/ecommerce-4.jpg'
+      '/portfolio/projects/ecommerce-1.jpg',
+      '/portfolio/projects/ecommerce-2.jpg',
+      '/portfolio/projects/ecommerce-3.jpg',
+      '/portfolio/projects/ecommerce-4.jpg'
     ],
     link: '#'
   },
@@ -27,10 +27,10 @@ export const projects: Project[] = [
     category: 'Микросервисная Архитектура',
     description: 'Масштабируемая платформа для просмотра аниме, построенная на микросервисной архитектуре Spring Boot. Система интегрирована с базой данных Kodik через специализированный parser-service для автоматического обновления контента. Архитектура включает auth-service (JWT безопасность), anime-service (управление каталогом), comment-service (социальное взаимодействие), upload-avatar-service (медиа-менеджмент) и stats-service (аналитика). Все сервисы оркестрируются через gateway-service. В качестве хранилищ используются PostgreSQL для надежного хранения данных и Redis для кэширования высоконагруженных запросов.',
     images: [
-      '/projects/aniplexity-1.png',
-      '/projects/aniplexity-2.png',
-      '/projects/aniplexity-3.png',
-      '/projects/aniplexity-4.png'
+      '/portfolio/projects/aniplexity-1.png',
+      '/portfolio/projects/aniplexity-2.png',
+      '/portfolio/projects/aniplexity-3.png',
+      '/portfolio/projects/aniplexity-4.png'
     ],
     link: '#'
   },
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     category: 'GameDev Web Platform',
     description: 'Сайт для Minecraft сервера LiteAnarchy. Сайт предоставляет пользователям удобный интерфейс для покупки привилегий, кейсов и игровой валюты. Реализована интеграция с игровым сервером для мгновенной выдачи товаров. Дизайн выполнен в стилистике проекта с акцентом на удобство навигации и визуальную привлекательность. Включает в себя систему мониторинга онлайна, рейтинги игроков и информационный раздел FAQ.',
     images: [
-      '/projects/anarchy.png'
+      '/portfolio/projects/anarchy.png'
     ],
     link: '#'
   }
