@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowUpRight } from 'lucide-react';
 import { projects } from '../data/projects';
 
 export const Projects = () => {
@@ -47,17 +46,6 @@ export const Projects = () => {
                         {project.category}
                       </p>
                     </div>
-                    {project.link && project.link !== '#' && (
-                      <a 
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-2 bg-zinc-800 rounded-full hover:bg-lime-400 hover:text-black transition-colors z-10 relative"
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        <ArrowUpRight size={20} />
-                      </a>
-                    )}
                   </div>
                   
                   <p className="text-zinc-400 leading-relaxed line-clamp-3">

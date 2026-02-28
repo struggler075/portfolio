@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 import { projects } from '../data/projects';
 import { MagneticButton } from '../components/ui/MagneticButton';
 
@@ -50,6 +50,16 @@ export const ProjectDetails = () => {
               <p className="text-xl text-zinc-400 uppercase tracking-widest">{project.category}</p>
             </div>
             
+            {project.link && project.link !== '#' && (
+              <a 
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-lime-400 text-black rounded-full font-bold flex items-center gap-2 hover:bg-lime-300 transition-colors"
+              >
+                Смотреть <ArrowUpRight size={20} />
+              </a>
+            )}
           </div>
 
           <p className="text-2xl text-zinc-300 leading-relaxed max-w-4xl mb-24">
