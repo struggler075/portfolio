@@ -32,7 +32,7 @@ export const projects: Project[] = [
       '/portfolio/projects/aniplexity-3.png',
       '/portfolio/projects/aniplexity-4.png'
     ],
-    link: '#'
+    link: 'https://aniplexity.fun'
   },
   {
     id: 3,
@@ -42,6 +42,6 @@ export const projects: Project[] = [
     images: [
       '/portfolio/projects/anarchy.png'
     ],
-    link: '#'
+    link: 'https://liteanarchy.ru'
   }
 ];
