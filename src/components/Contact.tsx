@@ -26,7 +26,7 @@ export const Contact = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.5 }}
           >
-            <MagneticButton onClick={() => window.open('https://t.me/optimusmac', '_blank')}>
+            <MagneticButton onClick={() => window.open('', '_blank')}>
               <span className="flex items-center gap-3 text-lg">
                 <TelegramIcon className="w-5 h-5 fill-current" />
                 Telegram
